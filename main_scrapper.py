@@ -1,5 +1,8 @@
-""" Zoopla scraping project 
-Made by Vytautas Bielinskas"""
+""" Zoopla scraping project """
+# ---------------------------------------------- #
+# Project starts at: 2020 02 01                  #
+# Lithuana, by Vytautas Bielinskas               #
+# ---------------------------------------------- #
 
 # Import libraries
 import requests, re, os

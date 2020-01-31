@@ -2,6 +2,10 @@
 These functions goes side by side to main app.py Python file
 in the same folder.
 '''
+# ---------------------------------------------- #
+# Project starts at: 2020 02 01                  #
+# Lithuana, by Vytautas Bielinskas               #
+# ---------------------------------------------- #
 
 # Import modules and packages
 import matplotlib.pyplot as plt
