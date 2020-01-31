@@ -129,7 +129,7 @@ def getData(listURLs):
             elif "rd" in listedOn:
                 day = listedOn.split("rd")[0]
                 
-            year = "2019" 
+            year = "2020" 
             x = input('Debuging checkpoint.')
             
             listedOn = day + "/" + str(monthNum) + "/" + year

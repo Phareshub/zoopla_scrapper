@@ -173,6 +173,7 @@ def save_data(data):
 		-- data : a given Pandas DataFrame with extracted values
 	'''
 	timeNow = str(datetime.datetime.now()).replace(":","-")[:-10]
+	date = '2020'
 	filename = "{}-AreaValues_Zoopla.csv".format(timeNow)
 
 	data.to_csv(filename, encoding='utf-8')
