@@ -27,6 +27,8 @@ def getData(listURLs):
     options.add_argument("--disable-extensions")
     
     featuresOfProperties = {}
+
+    x = input('Debuging checkpoint.')
         
     def getFullDescription(objectURL):
             
@@ -76,6 +78,7 @@ def getData(listURLs):
         for item in range (0, len(items), 1):
 
             blockProperty = items[item]
+            x = input('Debuging checkpoint.')
                     
             """ get Address """
             address = blockProperty.find("a", {"class":"listing-results-address"}).text
@@ -127,6 +130,7 @@ def getData(listURLs):
                 day = listedOn.split("rd")[0]
                 
             year = "2019" 
+            x = input('Debuging checkpoint.')
             
             listedOn = day + "/" + str(monthNum) + "/" + year
                     
